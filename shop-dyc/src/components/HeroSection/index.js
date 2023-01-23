@@ -13,9 +13,10 @@ const HeroSection = () => {
         <HeroH1>dyc.</HeroH1>
         <HeroP>We've Got You Covered</HeroP>
         <HeroBtnWrapper>
-          <Button> {/* add to='next section' */}
-            <ArrowDown></ArrowDown> {/*scroll to bottom btn*/}
-          </Button>
+          {/*<Button> 
+            <ArrowDown></ArrowDown>
+          </Button>*/}
+          <ArrowDown></ArrowDown> {/*scroll to bottom btn*/} {/* add to='next section' */}
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>

@@ -1,15 +1,15 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 import { MdKeyboardArrowDown } from 'react-icons/md'
 
 export const HeroContainer = styled.div`
   background: #0c0c0c;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   padding: 0 30px;
   height: 950px; /*orig 800*/
-  position: relative;
-  z-index: 1;
+  /* position: relative; */
+  z-index: 0; /*orig 1*/
 `
 
 export const HeroBg = styled.div`
@@ -31,9 +31,9 @@ export const ImageBg = styled.img`
 `
 
 export const HeroContent = styled.div`
-  z-index: 3;
+  z-index: 1;
   max-width: 1200px;
-  position: absolute;
+  position: relative; /*orig absolute */
   padding: 8px 24px;
   display: flex;
   flex-direction: column;
@@ -45,6 +45,7 @@ export const HeroH1 = styled.h1`
   font-size: 200px;
   text-align: center;
   font-weight: bold;
+  margin-top: 250px;
 
   @media screen and (max-wisth: 768px) {
     font-size: 160px;
@@ -73,15 +74,14 @@ export const HeroP = styled.p`
 `
 
 export const HeroBtnWrapper = styled.div`
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
   /* display: flex;
   flex-direction: column; */
-  align-items: center;
+  /* align-items: center; */
+  position: absolute;
   bottom: 0px;
-  position: fixed;
 `
 
 export const ArrowDown = styled(MdKeyboardArrowDown)`
   font-size: 70px;
-  /* font-weight: 50; */
 `
