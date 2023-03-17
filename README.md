@@ -1,5 +1,8 @@
 # Delivered at Your Convenience (DYC)
 
+![image](https://user-images.githubusercontent.com/88569965/226067370-0773c8e0-cd07-4e05-9726-e153d3abd8f5.png)
+
+
 Delivered at your Convenience (DYC) is a 24 hour delivery service. Whether you need a bag of chips due to a craving in the middle of the night or you forgot your hairbrush in a new city, DYC has you covered! Just like Doordash but for your everyday needs! DYC is available in all major cities and most suburban areas. DYC also donates a portion of our delivery fees to COVID-19 relief.
 
 
