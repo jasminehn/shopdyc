@@ -9,4 +9,4 @@ The goals of DYC are as follows:
 - Fast and more affordable delivery
 
 
-NOTE: This website is still currently in development. The goal is to build an identical version of [this Wix site](https://jnelson209.wixsite.com/shopdyc) from scratch in React.js
+NOTE: This website is still currently in development. The goal is to build an identical version of [this Wix site](https://jnelson209.wixsite.com/shopdyc) from scratch in React.js. The concept was originally created for a class project for COM140.
