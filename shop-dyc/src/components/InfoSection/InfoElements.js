@@ -83,7 +83,14 @@ export const Button = styled(LinkRouter)`
   background-color: black;
   padding: 15px 35px;
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: none; 
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: gray;
+    
+    /* cursor: pointer; */
+  }
 `
 
 export const ImgWrap = styled.div`

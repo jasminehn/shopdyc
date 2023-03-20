@@ -12,7 +12,7 @@ const HeroSection = () => {
       <HeroContent>
         <HeroH1>dyc.</HeroH1>
         <HeroP>We've Got You Covered</HeroP>
-        <HeroBtnWrapper>
+        <HeroBtnWrapper to='preview' smooth={true}>
           {/*<Button> 
             <ArrowDown></ArrowDown>
           </Button>*/}

@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { MdKeyboardArrowDown } from 'react-icons/md'
 import Image from '../../images/hero-img-3.png'
+import { Link as LinkScroll } from "react-scroll"
 
 export const HeroContainer = styled.div`
   //background: #0c0c0c;
@@ -85,7 +86,7 @@ export const HeroP = styled.p`
   }
 `
 
-export const HeroBtnWrapper = styled.div`
+export const HeroBtnWrapper = styled(LinkScroll)` //orig styled.div
   /* margin-bottom: 32px; */
   /* display: flex;
   flex-direction: column; */

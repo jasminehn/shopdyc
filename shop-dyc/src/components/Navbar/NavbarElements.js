@@ -110,6 +110,7 @@ export const SearchInput = styled.div`
   display: flex;
   align-items: center;
   color: #919191;
+  cursor: text;
 `
 
 export const SearchButton = styled.div`
