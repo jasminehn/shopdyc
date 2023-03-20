@@ -5,6 +5,10 @@ import Navbar from '../components/Navbar'
 import PreviewSection from '../components/PreviewSection'
 import ParallaxSection from '../components/ParallaxSection'
 import InfoSection from '../components/InfoSection'
+import ParallaxSection2 from '../components/ParallaxSection2'
+import DetailsSection from '../components/DetailsSection'
+import ParallaxSection3 from '../components/ParallaxSection3'
+import Footer from '../components/Footer'
 import Sidebar from '../components/Sidebar'
 import { homeObjOne, homeObjTwo } from '../components/InfoSection/Data'
 
@@ -25,6 +29,10 @@ const Home = () => {
       {/*<PreviewSection /> {/* temporary  */}
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
+      <ParallaxSection2 />
+      <DetailsSection />
+      <ParallaxSection3 />
+      <Footer />
       <ChatButton />
     </>
   )

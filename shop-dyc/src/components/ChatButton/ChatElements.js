@@ -3,7 +3,7 @@ import { MdChat } from 'react-icons/md'
 
 export const ChatContainer = styled.div`
   z-index: 2;
-  padding: 20px;
+  padding: 0 20px;
   display: flex;
   justify-content: right;
 `
@@ -16,6 +16,7 @@ export const ChatBtnWrapper = styled.div`
 `
 
 export const ChatBtn = styled.div`
+border: 1px #8d8c8c solid;
   height: 70px;
   width: 70px;
   align-items: center;
