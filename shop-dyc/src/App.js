@@ -1,24 +1,23 @@
 import './App.css'
 //import Navbar from './components/Navbar'
 //import Sidebar from './components/Sidebar'
-import { BrowserRouter as Router } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages'
+import OrderPage from './pages/order'
 
 function App() {
   return (
-    /*
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          sup
-        </p>
-      </header>
-    </div>
-    */
     <Router>
-      <Home />
+      <Routes>
+        <Route path="/" element={<Home />} /> 
+        <Route path="/shopdyc" element={<Home />} /> {/* temp because of github pages/package.json "homepage" problem */}
+        <Route path="/order" element={<OrderPage />} />
+      </Routes>
     </Router>
+
+    /*<Router>
+      <Home />
+    </Router>*/
   );
 }
 

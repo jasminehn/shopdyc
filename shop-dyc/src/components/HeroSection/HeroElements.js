@@ -1,19 +1,30 @@
 import styled from 'styled-components'
 import { MdKeyboardArrowDown } from 'react-icons/md'
+import Image from '../../images/hero-img-3.png'
 
 export const HeroContainer = styled.div`
-  background: #0c0c0c;
+  //background: #0c0c0c;
+  //background: #3cb315;
+  background-image: url(${Image});
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   /* align-items: center; */
   padding: 0 30px;
-  height: 950px; /*orig 800*/
+  
+  //height: 800px; /*orig 950*/
+  height: 100vh;
+  //margin-bottom: 200px;
   /* position: relative; */
-  z-index: 0; /*orig 1*/
+  z-index: 1; /*orig 1*/
+  
 `
 
 export const HeroBg = styled.div`
   position: absolute;
+  
   top: 0;
   right: 0;
   bottom: 0;
@@ -24,6 +35,7 @@ export const HeroBg = styled.div`
 
 export const ImageBg = styled.img`
   width: 100%;
+  
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
@@ -79,9 +91,11 @@ export const HeroBtnWrapper = styled.div`
   flex-direction: column; */
   /* align-items: center; */
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
+  //bottom: -180px;
 `
 
 export const ArrowDown = styled(MdKeyboardArrowDown)`
   font-size: 70px;
+  cursor: pointer;
 `
