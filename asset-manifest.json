@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/shopdyc/static/css/main.7e91629d.css",
-    "main.js": "/shopdyc/static/js/main.3403922c.js",
-    "static/js/787.af618100.chunk.js": "/shopdyc/static/js/787.af618100.chunk.js",
+    "main.css": "/shopdyc/static/css/main.d7da34c1.css",
+    "main.js": "/shopdyc/static/js/main.5309703f.js",
+    "static/media/pexels-julia-m-cameron-8769000.mp4": "/shopdyc/static/media/pexels-julia-m-cameron-8769000.109c5bcd79e764332654.mp4",
     "static/media/hero-img-3.png": "/shopdyc/static/media/hero-img-3.98fa3d5e06fc5ea9f299.png",
+    "static/media/parallax-1.jpg": "/shopdyc/static/media/parallax-1.9134aadb9b8fd0ac5a87.jpg",
+    "static/media/Urban Sunset.webp": "/shopdyc/static/media/Urban Sunset.3086715f4e3a304c9844.webp",
+    "static/media/Food Delivery.webp": "/shopdyc/static/media/Food Delivery.9958cbbf3b98ed3feff7.webp",
+    "static/media/parallax-3.jpeg": "/shopdyc/static/media/parallax-3.63d1e4e3eef892eb51c0.jpeg",
     "static/media/preview-img-3.webp": "/shopdyc/static/media/preview-img-3.ac1a33ceddf627a4818f.webp",
     "static/media/preview-img-2.webp": "/shopdyc/static/media/preview-img-2.d7e77ff87c40d347dacf.webp",
     "static/media/preview-img-1.webp": "/shopdyc/static/media/preview-img-1.6dc7123c34e4020c1498.webp",
     "index.html": "/shopdyc/index.html",
-    "main.7e91629d.css.map": "/shopdyc/static/css/main.7e91629d.css.map",
-    "main.3403922c.js.map": "/shopdyc/static/js/main.3403922c.js.map",
-    "787.af618100.chunk.js.map": "/shopdyc/static/js/787.af618100.chunk.js.map"
+    "main.d7da34c1.css.map": "/shopdyc/static/css/main.d7da34c1.css.map",
+    "main.5309703f.js.map": "/shopdyc/static/js/main.5309703f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e91629d.css",
-    "static/js/main.3403922c.js"
+    "static/css/main.d7da34c1.css",
+    "static/js/main.5309703f.js"
   ]
 }
