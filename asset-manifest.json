@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shopdyc/static/css/main.d7da34c1.css",
-    "main.js": "/shopdyc/static/js/main.5309703f.js",
+    "main.js": "/shopdyc/static/js/main.431cca0d.js",
     "static/media/pexels-julia-m-cameron-8769000.mp4": "/shopdyc/static/media/pexels-julia-m-cameron-8769000.109c5bcd79e764332654.mp4",
     "static/media/hero-img-3.png": "/shopdyc/static/media/hero-img-3.98fa3d5e06fc5ea9f299.png",
     "static/media/parallax-1.jpg": "/shopdyc/static/media/parallax-1.9134aadb9b8fd0ac5a87.jpg",
@@ -13,10 +13,10 @@
     "static/media/preview-img-1.webp": "/shopdyc/static/media/preview-img-1.6dc7123c34e4020c1498.webp",
     "index.html": "/shopdyc/index.html",
     "main.d7da34c1.css.map": "/shopdyc/static/css/main.d7da34c1.css.map",
-    "main.5309703f.js.map": "/shopdyc/static/js/main.5309703f.js.map"
+    "main.431cca0d.js.map": "/shopdyc/static/js/main.431cca0d.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.5309703f.js"
+    "static/js/main.431cca0d.js"
   ]
 }
